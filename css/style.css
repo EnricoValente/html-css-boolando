@@ -7,6 +7,25 @@
 
 
 
+
+/* GENERAL */
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+/* HEADER */
+
 header{
     background-color: #FF6900;
 }
@@ -36,3 +55,67 @@ li > a{
     padding: 10px 10px;
     color:white;
 }
+
+
+/* SECTION 1 */
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;}
+    
+    
+    
+.product-container{
+    position: relative;
+}
+
+.model{
+    
+    height: 400px;
+    margin-top: 30px;
+  
+}
+
+ .sale{
+    background-color: red;
+    color: white;
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+}
+
+
+.eco{
+    background-color: green;
+     color: white;
+    position: absolute;
+    bottom: 50px;
+    left: 40px;
+    
+}
+
+.heart{
+    position: absolute;
+    right: 0;
+    top: 30px;
+    font-size: 20px;
+    background-color: white;
+    padding: 10px;
+}
+
+.heart:hover{
+    color: red;
+}
+
+    
+.sale-price{
+    color: red;
+}
+
+.normal-price{
+    text-decoration: line-through;
+}
+    
+    
+    
