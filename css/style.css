@@ -1,0 +1,38 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header{
+    background-color: #FF6900;
+}
+
+.navbar-container{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+
+ul > li{
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+.logo{
+    height: 20px;
+    
+}
+
+li > a{
+    color: white;
+}
+
+.header-entity{
+    padding: 10px 10px;
+    color:white;
+}
