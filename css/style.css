@@ -115,7 +115,12 @@ li > a{
 
 .normal-price{
     text-decoration: line-through;
+}  
+
+.product-information{
+    position: fixed;
 }
-    
-    
-    
+
+.second-row{
+    margin-top: 30px;
+}
